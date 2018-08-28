@@ -1,0 +1,39 @@
+using System;
+
+public class Legolas
+
+{
+
+	public static void Main()
+
+	{
+	
+
+		int arrows = 3;
+
+		int enemies = 3;
+		
+	    int percent = 0;
+
+		
+		for(int j = 1; j <= 3; j++)
+
+		{
+			
+			Console.WriteLine("how manny arrows are left?" + arrows);
+			Console.WriteLine("how manny enemies are left?" + enemies);
+			
+			arrows--;
+			enemies--;
+
+		}
+		if(enemies == 0) {
+			Console.WriteLine("Legolas lives");
+		}
+		
+		if(enemies != 0) {
+			Console.WriteLine("Legolas Dies");
+		}
+	}
+
+}
